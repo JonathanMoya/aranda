@@ -119,6 +119,12 @@
           }
         }
       }
-    }},
-  "defaultProject": "Aranda"
+    }
+  },
+  "defaultProject": "Aranda",
+  "schematics": {
+    "@schematics/angular:component": {
+      "style": "scss"
+    }
+  }
 }
